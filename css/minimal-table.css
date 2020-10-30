@@ -1,0 +1,87 @@
+html {
+  font-family: sans-serif;
+}
+
+table {
+  color: white;
+  background: url(../images/sunrise-1014712_1920.jpg);
+  background-size: cover;
+  text-shadow: 1px 1px 1px black;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid purple;
+}
+h1 {
+  color: #004BAA;
+  font-style: italic;
+  font-family: cursive, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+/* spacing */
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 35%;
+}
+
+th, td {
+  padding: 20px;
+}
+
+/* typography */
+
+html {
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+thead th, tfoot th {
+  font-family: 'Rock Salt', cursive;
+}
+
+/* graphics and colors */
+
+
+
+thead th, tfoot th, tfoot td {
+  background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+  border: 3px solid purple;
+}
+.again {
+  background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+
+}
+
+/* zebra striping */
+
+tbody tr:nth-child(odd) {
+  background-color: #0D1E49;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #004BAA;
+}
+
+/* caption */
+
+caption {
+  font-family: 'Rock Salt', cursive;
+  padding: 20px;
+  font-style: italic;
+  caption-side: bottom;
+  color: #666;
+  text-align: right;
+  letter-spacing: 1px;
+}
+
