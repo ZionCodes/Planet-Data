@@ -1,4 +1,3 @@
-# Planet-Data
-Planet data table
+See this project live at https://zioncodes.github.io/Planet-Data/
 
-This is a simple html and css table about planets in our solar system.
+Planet data is a simple semantic html table of the planets in our solar system.
